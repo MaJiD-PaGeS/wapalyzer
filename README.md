@@ -10,7 +10,7 @@
 
 ---
 
-> This is a community fork of the now removed [wappalyzer](https://web.archive.org/web/20230821034415/https://20230821034415/github.com/wappalyzer/wappalyzer) project, initially developed by [@AliasIO](https://github.com/AliasIO).
+> This is a community fork of the now removed [wappalyzer](https://web.archive.org/web/20230821034415/https://20230821034415/github.com/wappalyzer/wappalyzer) project, initially developed by [@MaJiD-PaGeS](https://github.com/MaJiD-PaGeS).
 > <br />
 > The original author maintains a hosted instanced, availible at [wappalyzer.com](https://www.wappalyzer.com/).
 
@@ -23,7 +23,7 @@
 ## Quick start
 
 ```sh
-git clone https://github.com/lissy93/wapalyzer.git
+git clone https://github.com/MaJiD-PaGeS/wapalyzer.git
 cd wappalyzer
 yarn install
 yarn run link
@@ -54,7 +54,7 @@ node src/drivers/npm/cli.js https://example.com
 
 A long list of [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is used to identify technologies on web pages. wapalyzer inspects HTML code, as well as JavaScript variables, response headers and more.
 
-Patterns (regular expressions) are kept in [`src/technologies/`](https://github.com/lissy93/wapalyzer/blob/master/src/technologies). The following is an example of an application fingerprint.
+Patterns (regular expressions) are kept in [`src/technologies/`](https://github.com/MaJiD-PaGeS/wapalyzer/blob/master/src/technologies). The following is an example of an application fingerprint.
 
 #### Example
 
@@ -117,7 +117,7 @@ Patterns (regular expressions) are kept in [`src/technologies/`](https://github.
 
 ## JSON fields
 
-Find the JSON schema at [`schema.json`](https://github.com/lissy93/wapalyzer/blob/master/schema.json).
+Find the JSON schema at [`schema.json`](https://github.com/MaJiD-PaGeS/wapalyzer/blob/master/schema.json).
 
 ### Required properties
 
